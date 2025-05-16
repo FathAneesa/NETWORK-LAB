@@ -20,6 +20,9 @@ if [ $ans = "n" ]
 then
 exit 3
 fi
+fi
+cp $1 $2
+echo "file copied"
 
 sh cp.sh  tri.sh year.sh
 target file exists,over write it (y/n)
