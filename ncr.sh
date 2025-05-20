@@ -21,4 +21,6 @@ factr=$?
 fact `expr $1 - $2`
 factnr=$?
 rnr=`expr $factr \* $factnr`
-echo " $1 C $2 =`expr $factn/$rnr`"
+#echo " $1 C $2 =`expr $factn/$rnr`"
+ncr=`expr $factn / $rnr`
+echo "$1C$2 = $ncr"
